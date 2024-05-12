@@ -1,0 +1,24 @@
+@import "../src/assets/style/Header.scss";
+@import "../src/assets/style/Hero.scss";
+@import "../src/assets/style/Product.scss";
+@import "../src/assets/style/Footer.scss";
+@import "../src/assets/style/Basket.scss";
+@import "../src/assets/style/ProductDetails.scss";
+@import "../src/assets/style/About.scss";
+@import "../src/assets/style/Contact.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+body {
+  background: #1a1919;
+}

@@ -1,0 +1,45 @@
+.foot {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer {
+  background: black;
+  padding: 30px;
+
+  .footer-p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: grey;
+    font-size: 25px;
+  }
+
+  .footer-logo {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 50px;
+    a {
+      color: white;
+      font-size: 40px;
+    }
+  }
+
+  .motion-web {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+    h1 {
+      font-size: 15px;
+      color: white;
+    }
+    img {
+      width: 126px;
+    }
+  }
+}

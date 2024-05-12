@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router-dom";
+import "./App.scss";
+import Header from "./components/Header/Header";
+import Hero from "./components/hero/Hero";
+import Product from "./components/product/Product";
+import Footer from "./components/footer/Footer";
+import Basket from "./components/basket/Basket";
+import ProductCard from "./components/productCard/ProductCard";
+import ProductDetails from "./components/productDetails/ProductDetails";
+import About from "./components/about/About";
+import Contact from "./components/contact/Contact";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+
+      <Routes>
+        <Route path="/" element={<Hero />} />
+        <Route path="/product" element={<Product />} />
+        <Route path="/basket" element={<Basket />} />
+        <Route path="/ProductCard" element={<ProductCard />} />
+        <Route path="/ProductDetails/:proId" element={<ProductDetails />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/Contact" element={<Contact />} />
+
+        {/* <Route path="/BasdDet/:idPro" element={<BasdDet />} /> */}
+      </Routes>
+      <Footer />
     </div>
   );
 }

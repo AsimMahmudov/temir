@@ -1,0 +1,157 @@
+.ff {
+  width: 300px;
+  height: 400px;
+  background: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ff:hover {
+  width: 500px;
+  transition: 0.5s;
+  background: rgb(32, 32, 32);
+
+  .fftext {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    transition: 2s;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .ll:hover {
+    transform: rotate(90deg);
+    transition: 1s;
+    margin-top: -200px;
+    width: 150px;
+    height: 300px;
+    border-radius: 40px;
+  }
+}
+
+.ll {
+  width: 200px;
+  height: 400px;
+}
+
+.ll:hover {
+  transform: rotate(90deg);
+  transition: 1s;
+  margin-top: -200px;
+  width: 150px;
+  height: 300px;
+  border-radius: 40px;
+}
+
+.fftext {
+  position: absolute;
+  color: rgba(0, 0, 255, 0);
+  margin-top: 250px;
+  font-size: 30px;
+}
+
+.dd1 {
+  width: 2000px;
+  height: 440px;
+}
+
+.dd1:hover {
+  width: 230px;
+  height: 310px;
+  border-radius: 10px;
+}
+
+/* //////////////// */
+/* //////////////// */
+/* //////////////// */
+
+.block {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  background: rgb(0, 0, 0);
+  width: 1000px;
+  height: 400px;
+}
+
+.ee {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+/* ////////////////////// */
+
+.a1 {
+  background: rgb(0, 0, 0);
+  width: 1000px;
+  height: 50px;
+  position: absolute;
+  margin-top: -450px;
+  margin-left: 264px;
+}
+
+.a2 {
+  background: rgb(0, 0, 0);
+  width: 1000px;
+  height: 50px;
+  position: absolute;
+  margin-left: 264px;
+}
+
+.b1 {
+  background: rgb(0, 0, 0);
+  width: 50px;
+  height: 500px;
+  position: absolute;
+  margin-top: -450px;
+  margin-left: 263px;
+}
+
+.b2 {
+  background: rgb(0, 0, 0);
+  width: 50px;
+  height: 500px;
+  position: absolute;
+  margin-top: -450px;
+  margin-left: 1244px;
+}
+
+.ff {
+  padding: 20px 0px;
+  // background: yellow;
+  width: 340px;
+  height: 600px;
+}
+
+.ff1 {
+  padding: 20px 0px;
+  // background: yellow;
+  width: 340px;
+  height: 600px;
+}
+
+.kk1 {
+  background-image: url("https://cards.optimabank.kg/images/design/cards/unionpay-gold.png");
+  background-size: cover;
+  // transform: rotate(90deg);
+}
+
+.kk2 {
+  background-image: url("https://www.akchabar.kg/media/card/a09c7e2d-fb71-4da1-9713-44c27b4928ec.png");
+  background-size: cover;
+  // transform: rotate(90deg);
+}
+
+.kk3 {
+  background-image: url("https://www.akchabar.kg/media/card/ced7cba6-0bd0-45a6-827c-974ef7c400f2.png");
+  background-size: cover;
+}
+
+.kk4 {
+  background-image: url("https://cards.optimabank.kg/images/news/2022/cards_platinum2.png");
+  background-size: cover;
+}
